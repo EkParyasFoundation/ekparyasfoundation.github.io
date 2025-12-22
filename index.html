@@ -118,10 +118,62 @@ section{
     object-fit:cover;
     border-radius:6px;
 }
+
+/* CONTACT */
+form input,form textarea{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+}
+form button{
+    background:#1b5e20;
+    color:#fff;
+    padding:10px 20px;
+    border:none;
+}
+
+/* FOOTER */
+footer{
+    background:#1b5e20;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+}
 </style>
 </head>
 
 <body>
+
+<header>
+    <div class="logo">
+        <div class="logo-icon">E</div>
+        <div class="logo-text">
+            <h1>Ekparyas Foundation</h1>
+            <p>Equality • Education • Empowerment</p>
+        </div>
+    </div>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#work">Our Work</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="banner">
+    <h2></h2>
+    <p></p>
+    <a 
+href="https://razorpay.me/@ekparyasfoundation" 
+target="_blank"
+class="button" 
+style="background:#0a7cff;">
+Donate Now
+</a>
+
+
+</section>
 
 <section id="about">
     <h2>About Us</h2>
@@ -161,31 +213,17 @@ section{
     </div>
 </section>
 
-<section id="donate">
-  <h2>Support Our Cause</h2>
-  <ul>
-    <li>₹100 – Helps feed a hungry person</li>
-    <li>₹500 – Supports a child’s education</li>
-    <li>₹1000 – Helps women empowerment</li>
-    <li>₹2000 – Supports animal care</li>
-  </ul>
-
-  <a 
-  href="https://razorpay.me/@ekparyasfoundation" 
-  target="_blank"
-  class="button"
-  style="background:#0a7cff;">
-  Donate via Razorpay
-  </a>
-
-  <p style="margin-top:20px;font-weight:bold;">Or Scan QR Code</p>
-  <img src="images/razorpay-qr.jpg" style="max-width:220px;">
-</section>
-
 <section id="contact">
     <h2>Contact Us</h2>
     <p>Email: 1ekparyasfoundation@gmail.com</p>
-    <p>Location: Gurgaon, Haryana, India</p>
+    <p>Location: Gurgaon Haryana,India</p>
+
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="4" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
 </section>
 
 <footer>
@@ -194,3 +232,15 @@ section{
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
